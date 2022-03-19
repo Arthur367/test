@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/netbot/projects/flutter_apps/mobile_test/build/path_provider_android/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/home/netbot/.gradle/caches/transforms-2/files-2.1/14944dcd7d52da6d5533511c869c46e3/core-1.1.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/home/netbot/projects/flutter_apps/mobile_test/build/path_provider_android/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/home/netbot/.gradle/caches/transforms-2/files-2.1/14944dcd7d52da6d5533511c869c46e3/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/netbot/projects/flutter_apps/mobile_test/build/path_provider_android/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/netbot/.gradle/caches/transforms-2/files-2.1/14944dcd7d52da6d5533511c869c46e3/core-1.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/netbot/projects/flutter_apps/mobile_test/build/path_provider_android/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/home/netbot/.gradle/caches/transforms-2/files-2.1/14944dcd7d52da6d5533511c869c46e3/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/netbot/projects/flutter_apps/mobile_test/build/path_provider_android/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/netbot/.gradle/caches/transforms-2/files-2.1/14944dcd7d52da6d5533511c869c46e3/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/netbot/projects/flutter_apps/mobile_test/build/path_provider_android/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/home/netbot/.gradle/caches/transforms-2/files-2.1/14944dcd7d52da6d5533511c869c46e3/core-1.1.0/res/layout/notification_template_icon_group.xml"
+    }
+]
