@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mobile_pos"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:4:1-75
+12-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:4:18-72
+13    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+13-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:8:5-83
+13-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:8:22-80
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:9:5-80
+14-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:9:22-77
+15
+16    <application
+16-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:5:4-44:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.6.0] /home/netbot/.gradle/caches/transforms-2/files-2.1/c1ebda589683e9beaa06b540aac78854/core-1.6.0/AndroidManifest.xml:24:18-86
+18        android:icon="@mipmap/ic_launcher"
+18-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:7:9-43
+19        android:label="Mobile POS" >
+19-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:6:9-35
+20        <activity
+20-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:10:9-38:20
+21            android:name="com.example.mobile_pos.MainActivity"
+21-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:11:13-41
+22            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+22-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:14:13-163
+23            android:hardwareAccelerated="true"
+23-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:15:13-47
+24            android:launchMode="singleTop"
+24-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:12:13-43
+25            android:theme="@style/LaunchTheme"
+25-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:13:13-47
+26            android:windowSoftInputMode="adjustResize" >
+26-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:16:13-55
+27
+28            <!--
+29                 Specifies an Android theme to apply to this Activity as soon as
+30                 the Android process has started. This theme is visible to the user
+31                 while the Flutter UI initializes. After that, this theme continues
+32                 to determine the Window background behind the Flutter UI.
+33            -->
+34            <meta-data
+34-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:21:13-24:17
+35                android:name="io.flutter.embedding.android.NormalTheme"
+35-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:22:15-70
+36                android:resource="@style/NormalTheme" />
+36-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:23:15-52
+37            <!--
+38                 Displays an Android View that continues showing the launch screen
+39                 Drawable until Flutter paints its first frame, then this splash
+40                 screen fades out. A splash screen is useful to avoid any visual
+41                 gap between the end of Android's launch screen and the painting of
+42                 Flutter's first frame.
+43            -->
+44            <meta-data
+44-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:30:13-33:17
+45                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+45-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:31:15-79
+46                android:resource="@drawable/launch_background" />
+46-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:32:15-61
+47
+48            <intent-filter>
+48-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:34:13-37:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:35:17-68
+49-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:35:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:36:17-76
+51-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:36:27-74
+52            </intent-filter>
+53        </activity>
+54        <!--
+55             Don't delete the meta-data below.
+56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+57        -->
+58        <meta-data
+58-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:41:9-43:33
+59            android:name="flutterEmbedding"
+59-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:42:13-44
+60            android:value="2" />
+60-->/home/netbot/projects/flutter_apps/t/test/test/android/app/src/main/AndroidManifest.xml:43:13-30
+61
+62        <provider
+62-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:12:9-21:20
+63            android:name="com.crazecoder.openfile.FileProvider"
+63-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:13:13-64
+64            android:authorities="com.example.mobile_pos.fileProvider.com.crazecoder.openfile"
+64-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:14:13-88
+65            android:exported="false"
+65-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+66            android:grantUriPermissions="true" >
+66-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+67            <meta-data
+67-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:18:13-20:53
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:19:17-67
+69                android:resource="@xml/filepaths" />
+69-->[:open_file] /home/netbot/projects/flutter_apps/t/test/test/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:20:17-50
+70        </provider>
+71
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] /home/netbot/.gradle/caches/transforms-2/files-2.1/9520e6f13992d2f4d96b17b856330597/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.window.extensions"
+73-->[androidx.window:window:1.0.0-beta04] /home/netbot/.gradle/caches/transforms-2/files-2.1/9520e6f13992d2f4d96b17b856330597/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] /home/netbot/.gradle/caches/transforms-2/files-2.1/9520e6f13992d2f4d96b17b856330597/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] /home/netbot/.gradle/caches/transforms-2/files-2.1/9520e6f13992d2f4d96b17b856330597/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+76            android:name="androidx.window.sidecar"
+76-->[androidx.window:window:1.0.0-beta04] /home/netbot/.gradle/caches/transforms-2/files-2.1/9520e6f13992d2f4d96b17b856330597/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0-beta04] /home/netbot/.gradle/caches/transforms-2/files-2.1/9520e6f13992d2f4d96b17b856330597/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+78    </application>
+79
+80</manifest>
